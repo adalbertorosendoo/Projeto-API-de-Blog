@@ -52,6 +52,7 @@ Para manter o projeto simples e dentro do escopo do desafio, os dados são armaz
 - Retorna todos os posts do blog, incluindo a quantidade de comentários de cada post.
 - Exemplo de resposta:
 
+```json
 [
   {
     "id": 1,
@@ -60,7 +61,7 @@ Para manter o projeto simples e dentro do escopo do desafio, os dados são armaz
     "numeroComentarios": 2
   }
 ]
-
+```
 ---
 
 ## POST /api/posts
@@ -68,10 +69,12 @@ Para manter o projeto simples e dentro do escopo do desafio, os dados são armaz
 - Cria um novo post de blog.
 - Exemplo de requisição (JSON):
 
+```json
 {
   "titulo": "Meu primeiro post",
   "conteudo": "Esse é o conteúdo do meu post"
 }
+```
 
 ---
 
@@ -80,6 +83,7 @@ Para manter o projeto simples e dentro do escopo do desafio, os dados são armaz
 - Retorna um post específico pelo ID, incluindo seus comentários.
 - Exemplo de resposta:
 
+```json
 {
   "id": 1,
   "titulo": "Meu primeiro post",
@@ -92,6 +96,7 @@ Para manter o projeto simples e dentro do escopo do desafio, os dados são armaz
     }
   ]
 }
+```
 
 ---
 
@@ -100,9 +105,11 @@ Para manter o projeto simples e dentro do escopo do desafio, os dados são armaz
 - Adiciona um comentário a um post existente.
 - Exemplo de requisição (JSON):
 
+```json
 {
   "texto": "Gostei muito desse post!"
 }
+```
 
 ---
 
@@ -111,3 +118,4 @@ Para manter o projeto simples e dentro do escopo do desafio, os dados são armaz
 - Os dados são armazenados apenas em memória.
 - Ao reiniciar a aplicação, todos os dados são perdidos.
 - Essa abordagem foi adotada para manter o projeto simples e alinhado ao escopo do desafio técnico.
+
