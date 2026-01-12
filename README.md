@@ -119,3 +119,12 @@ Para manter o projeto simples e dentro do escopo do desafio, os dados são armaz
 - Ao reiniciar a aplicação, todos os dados são perdidos.
 - Essa abordagem foi adotada para manter o projeto simples e alinhado ao escopo do desafio técnico.
 
+---
+
+# Melhorias Futuras
+
+## Algumas melhorias que poderiam ser implementadas se houvesse mais tempo:
+
+- Persistência de dados com banco de dados (Entity Framework Core)
+- Validação mais robusta dos dados de entrada
+- Autenticação e autorização
