@@ -37,4 +37,5 @@ Para manter o projeto simples e dentro do escopo do desafio, os dados são armaz
 
 1. Clone o repositório:
    ```bash
-   git clone <url-do-repositorio>
+   git clone https://github.com/adalbertorosendoo/Projeto-API-de-Blog.git
+
